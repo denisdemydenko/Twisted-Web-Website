@@ -21,7 +21,7 @@
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Service Booking</a></li>
+                <li class="nav-item"><a href="booking_online.php" class="nav-link">Service Booking</a></li>
             </ul>
         </nav>
 
@@ -57,7 +57,7 @@
 
     <div class="book_now_block">
         <h2>Book your MOT with Car Garage</h2>
-        <button class = "btn">Book Now</button>
+        <button class = "btn" onclick = "window.location = 'booking_online.php'">Book Now</button>
     </div>
 
 </section>
