@@ -207,3 +207,30 @@ header {
     gap: 20px;
 }
 
+.container-fluid{
+
+    background-color: #182a4d;
+}
+
+.homepage_text{
+    padding-top: 100px;
+    background-color: #182a4d;
+    color: white;
+    font-size:20px;
+    font-family: Montserrat,sans-serif;
+    padding-bottom: 100px;
+}
+
+footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #14223f;
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+

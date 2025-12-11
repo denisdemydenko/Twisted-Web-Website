@@ -59,9 +59,25 @@
         <h2>Book your MOT with Car Garage</h2>
         <button class = "btn">Book Now</button>
     </div>
-    
+
 </section>
 
+<section class = "container_fluid">
+    <div class = "homepage_text">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat accumsan quam, eget consequat mauris tincidunt sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque auctor, ipsum ut lobortis rutrum, tortor nulla rhoncus enim, vitae eleifend urna purus id lacus. </p>
+        <p>Duis aliquet aliquam nisl. Nulla molestie dapibus vestibulum. Nam bibendum felis in est sodales ullamcorper. Mauris facilisis dignissim purus et tempor. Quisque quis libero at justo rhoncus efficitur. Morbi mollis, nulla ut ultrices convallis, odio purus tempor sapien, sed vestibulum lacus turpis et ipsum.</p>
+
+        <p>Vestibulum euismod volutpat enim ut elementum. Integer congue accumsan felis, pretium fringilla mi hendrerit imperdiet. Nunc cursus, nunc et dignissim finibus, velit mauris rutrum ex, id porta nisi dolor eu ipsum. Vestibulum aliquet lobortis justo sit amet cursus. Nunc vitae vehicula velit, sed porta diam. Sed mattis eget urna id hendrerit. </p>
+        <p>Fusce massa velit, mattis vitae laoreet sed, cursus id nisi. Aenean mollis tellus id venenatis tempus. Sed fermentum ligula eu nibh bibendum finibus. Vestibulum tristique at enim eget viverra. Ut malesuada, lorem ac scelerisque fermentum, lorem sapien interdum risus, id ultrices dolor augue accumsan turpis. Suspendisse varius tincidunt viverra. Proin ac nisi mauris. Integer id rhoncus ligula. Nam vel orci erat.</p>
+    </div>
+</section>
+
+<footer>
+
+    <span>© 2025 Car Garage</span>
+
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
