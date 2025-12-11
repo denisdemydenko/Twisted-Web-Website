@@ -1,48 +1,209 @@
-header{
-
-    width: auto;
-    height: 300px;
-    background-color: rgb(54, 54, 82);
-    padding-top: 100px;
-
+header {
+    width: 100%;
+    
+    background-color: #182a4d;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.navbar{
 
-    width: 700px;
-    height: 100px;
-    margin-left: 300px;
+.logo {
+    height: 200px;
+    padding-left: 80px;
 }
 
-.navbar-nav{
-    background-color: rgb(54, 54, 82);
-    font-size: 30px;
-    font-family:Montserrat,sans-serif;
+.navbar {
+    flex-grow: 1;            
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 40px;
+    font-size: 26px;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
-    padding: 5px;
 }
 
-.nav-link{
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(196,196,196);
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+    padding-bottom: 130px;
+}
+.headerbtn {
+    background-color: white;
+    color: #182a4d;
+    font-size: 20px;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+}
+
+.headerbtn:hover{
 
     color: white;
-    text-shadow: 1em;
+    background-color: #334872;
 }
 
-.nav-link:hover{
+.contact_info_navbar{
 
-    color: rgb(196, 196, 196);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 100px;
 }
 
-.logo{
+/* PHONE NUMBER STYLING */
 
-    width: 200px;
+.phone_number{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.phone_number img {
+    width: 25px;
+    height: 25px;
+}
+
+.phone_number span {
+
+    color: black;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+
+.phone_number span:hover{
+
+    color: #334872;
+}
+
+/* EMAIL STYLING */
+
+.email{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.email img {
+    width: 25px;
+    height: 25px;
+}
+
+.email address {
+
+    color: black;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    margin-bottom: 0 !important;
+}
+
+.email address:hover{
+
+    color: #334872;
+}
+
+
+/* CLOCK STYLING */
+
+.working_time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.working_time img {
+    width: 25px;
+    height: 25px;
+}
+
+.working_time time {
+
+    color: black;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+
+.working_time time:hover{
+
+    color: #334872;
+}
+
+.homepage_image_buttons {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url(images/homepage_image.svg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.book_now_block{
+    width: 700px;
     height: 200px;
-    
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+    border-radius: 8px;     
+    margin-top: 100px;    
 }
 
-.logo img{
-
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+.book_now_block h2{
+    color: white;
+    font-size: 47px !important;
+    font-family: Montserrat, sanf-serif;
 }
+
+.book_now_block button{
+
+    background: rgba(0, 0, 0, 0.4); 
+    color: rgb(255, 255, 255);
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+
+.book_now_block button:hover{
+
+    border-color: #5c89e4;
+    color: #5c89e4;
+}
+
+.animated_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
