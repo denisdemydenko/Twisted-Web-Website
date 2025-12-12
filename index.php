@@ -18,9 +18,9 @@
 
         <nav class="navbar">
             <ul class="navbar-nav d-flex flex-row nav-underline">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="contact_us.php" class="nav-link">Contact Us</a></li>
                 <li class="nav-item"><a href="booking_online.php" class="nav-link">Service Booking</a></li>
             </ul>
         </nav>

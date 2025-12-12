@@ -38,9 +38,9 @@
 
     <h2>Login</h2>
     <br>
-    <form action="" class="row g-1 needs-validation login" novalidate>
+    <form action="scripts/login_script.php" method = "post" class="row g-1 needs-validation login" novalidate>
         <label for="sUsername" class = "form-label">Username</label>
-        <input type="text" name="sUseraname" id="sUsername" class="form-control" value required>
+        <input type="text" name="sUsername" id="sUsername" class="form-control" value required>
 
         <label for="sPassowrd" class = "form-label">Password</label>
         <input type="password" name="sPassword" class = "form-control"id="sPassword">

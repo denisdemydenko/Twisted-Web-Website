@@ -18,7 +18,7 @@
 
         <nav class="navbar">
             <ul class="navbar-nav d-flex flex-row nav-underline">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
                 <li class="nav-item"><a href="booking_online.php" class="nav-link">Service Booking</a></li>
@@ -40,12 +40,12 @@
 
         <h1>Booking</h1>
 
-        <form action="" class="row g-1 needs-validation login" novalidate>
+        <form action="scripts/booking_script.php" method = "post" class="row g-1 needs-validation login" novalidate>
         <label for="sFirstname" class = "form-label">First Name</label>
-        <input type="text" name="sFirstaname" id="sFirstname" class="form-control" value required>
+        <input type="text" name="sFirstname" id="sFirstname" class="form-control" value required>
 
         <label for="iNumber" class = "form-label">Telephone Number</label>
-        <input type="tel" name="iNumber" id="iNumber" class = "form-control">
+        <input type="tel" name="sNumber" id="sNumber" class = "form-control">
 
         <label for="sDate" class="form-label">Choose Date</label>
         <input type="date" name="sDate" id="sDate" class = "form-control">
