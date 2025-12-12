@@ -37,7 +37,7 @@
 
     <h2>Sign Up</h2>
     <br>
-    <form action="" class="row g-1 needs-validation login" novalidate>
+    <form action="scripts/signup_script.php" method = "post"class="row g-1 needs-validation login" novalidate>
         <label for="sUsername" class = "form-label">Username</label>
         <input type="text" name="sUseraname" id="sUsername" class="form-control" value required>
 
